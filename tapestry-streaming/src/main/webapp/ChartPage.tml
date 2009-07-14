@@ -1,0 +1,7 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <body>
+      <img src="${chartSrc}" alt="Diagramm" style="display:block;margin-left:auto;margin-right:auto"/>
+   </body>
+</html>
+
+

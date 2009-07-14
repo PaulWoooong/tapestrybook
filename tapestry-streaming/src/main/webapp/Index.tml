@@ -1,0 +1,8 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <body>
+      <p><t:pagelink page="PdfPage">Antworten mit PDF-Dateien</t:pagelink></p>
+      <p><t:pagelink page="ChartPage">Darstellen von JFreeChart-Diagrammen</t:pagelink></p>
+   </body>
+</html>
+
+

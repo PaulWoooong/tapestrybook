@@ -1,9 +1,7 @@
  ----
- Module de.t5book:de.t5book
+ Module Hello-World
  ----
 
-de.t5book:de.t5book Documentation
+Tapestry 5 Hello-World Application
 
-  This is where you can start to document your module.
-
-  Create new files in the Maven APT format, and update the site.xml file to point to them.
+  Application to start with Tapestry.
