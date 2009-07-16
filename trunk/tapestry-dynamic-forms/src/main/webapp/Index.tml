@@ -1,0 +1,11 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<p><t:pagelink page="ViewReport">Berichtsformular</t:pagelink></p>
+		
+		<p><t:pagelink page="VoteAdmin">Umfrage</t:pagelink></p>
+		
+		<p><t:pagelink page="FormFragmentExample">Rechnungs- und Lieferadresse</t:pagelink></p>
+	</body>
+</html>
+
+

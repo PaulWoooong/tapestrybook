@@ -1,0 +1,30 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<t:form>
+			<t:loop source="parameters" value="currentParameter"
+				encoder="encoder">
+				<t:submitNotifier>
+					${currentParameter.name}:
+					<br />
+					<t:delegate to="activeBlock"/>
+					<br />
+				</t:submitNotifier>
+			</t:loop>
+			<br/>
+			<input type="submit" value="Bericht laden" />
+		</t:form>
+		
+		<t:block id="stringBlock">
+		   <t:textfield value="currentParameter.value" translate="string"/>
+		</t:block>
+		<t:block id="dateBlock">
+		   <t:datefield value="currentParameter.value" />
+		</t:block>
+		<t:block id="numericBlock">
+		   <t:textfield value="currentParameter.value" translate="integer"/>
+		</t:block>
+
+	</body>
+</html>
+
+
