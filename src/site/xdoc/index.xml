@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<document>
+  <properties>
+    <title>Tapestry 5 Book</title>
+  </properties>
+  <body>
+    <section name="Tapestry 5 Book">
+      	<p>Tapestry 5 Book</p>
+      	<img src="images/cover.jpg" />
+    </section> 
+  </body>
+</document>
+
