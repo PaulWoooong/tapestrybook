@@ -29,6 +29,7 @@
 		<menu name="Modules">
 			<item name="Hello-World" href="/hello-world/index.html" />
 			<item name="Chapter 8" href="/tapestry-dynamic-forms/index.html" />
+			<item name="Chapter 10" href="/tapestry-streaming/index.html" />
 		</menu>
 
 		<menu ref="reports" />

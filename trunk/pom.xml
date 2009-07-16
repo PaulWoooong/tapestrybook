@@ -15,6 +15,7 @@
 
 	<modules>
 		<module>hello-world</module>
+		<module>tapestry-streaming</module>
 		<module>tapestry-dynamic-forms</module>
 	</modules>
 
@@ -90,6 +91,24 @@
 				<version>${tapestry-release-version}</version>
 				<scope>test</scope>
 			</dependency>
+			<dependency>
+				<groupId>com.lowagie</groupId>
+				<artifactId>itext</artifactId>
+				<version>2.1.4</version>
+
+			</dependency>
+
+			<dependency>
+				<groupId>jfree</groupId>
+				<artifactId>jfreechart</artifactId>
+				<version>1.0.11</version>
+				<exclusions>
+					<exclusion>
+						<groupId>gnujaxp</groupId>
+						<artifactId>gnujaxp</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
 
 			<dependency>
 				<groupId>hsqldb</groupId>
@@ -97,7 +116,7 @@
 				<version>1.8.0.7</version>
 				<scope>test</scope>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>org.testng</groupId>
 				<artifactId>testng</artifactId>
