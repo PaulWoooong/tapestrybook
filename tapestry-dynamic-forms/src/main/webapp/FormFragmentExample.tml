@@ -1,0 +1,64 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+      <t:form>
+      	<table>
+      		<tr>
+      			<td>
+      				<h2>Rechnungsadrese</h2>
+      				Strasse:
+      				<br />
+      				<t:textfield value="billingAdress.street"
+      					validate="required" />
+      				<br />
+      				Stadt:
+      				<br />
+      				<t:textfield value="billingAdress.city"
+      					validate="required" />
+      				<br />
+      				PLZ:
+      				<br />
+      				<t:textfield value="billingAdress.zipCode"
+      					validate="required" />
+      				<br />
+
+      				<t:checkbox t:id="shipToAnotherAddress"
+      					t:mixins="triggerfragment" fragment="shippingAddress" />
+      				<t:label for="shipToAnotherAddress">
+      					An eine andere Adresse Liefern?
+      				</t:label>
+      			</td>
+      			<td>
+      				<t:formfragment t:id="shippingAddress"
+      					visible="shipToAnotherAddress">
+      					<h2>Lieferadresse</h2>
+      					Strasse:
+      					<br />
+      					<t:textfield value="shippingAdress.street"
+      						validate="required" />
+      					<br />
+      					Stadt:
+      					<br />
+      					<t:textfield value="shippingAdress.city"
+      						validate="required" />
+      					<br />
+      					PLZ:
+      					<br />
+      					<t:textfield value="shippingAdress.zipCode"
+      						validate="required" />
+      					<br />
+<br /><br />
+      				</t:formfragment>
+      			</td>
+      		</tr>
+      	</table>
+
+      	<input type="submit" value="Senden" />
+      </t:form>
+
+
+
+
+	</body>
+</html>
+
+

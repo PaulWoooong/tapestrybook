@@ -72,13 +72,6 @@
 
 			<dependency>
 				<groupId>org.apache.tapestry</groupId>
-				<artifactId>tapestry-test</artifactId>
-				<version>${tapestry-release-version}</version>
-				<scope>test</scope>
-			</dependency>
-
-			<dependency>
-				<groupId>org.apache.tapestry</groupId>
 				<artifactId>tapestry-upload</artifactId>
 				<version>${tapestry-release-version}</version>
 				<scope>test</scope>
@@ -88,6 +81,35 @@
 				<groupId>org.apache.tapestry</groupId>
 				<artifactId>tapestry-spring</artifactId>
 				<version>${tapestry-release-version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.tapestry</groupId>
+				<artifactId>tapestry-test</artifactId>
+				<version>${tapestry-release-version}</version>
+				<scope>test</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>hsqldb</groupId>
+				<artifactId>hsqldb</artifactId>
+				<version>1.8.0.7</version>
+				<scope>test</scope>
+			</dependency>
+			
+			<dependency>
+				<groupId>org.testng</groupId>
+				<artifactId>testng</artifactId>
+				<version>5.8</version>
+				<classifier>jdk15</classifier>
+				<scope>test</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>org.easymock</groupId>
+				<artifactId>easymock</artifactId>
+				<version>2.4</version>
+				<scope>test</scope>
 			</dependency>
 		</dependencies>
 
