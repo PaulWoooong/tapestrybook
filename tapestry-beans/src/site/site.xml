@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Generated site for de.t5book">
+
+    <publishDate format="dd MMM yyyy"/>
+
+    <version/>
+
+    <body>
+
+        <menu name="de.t5book Project">
+            <item name="About" href="index.html"/>
+        </menu>
+
+        <menu ref="reports"/>
+
+    </body>
+</project>

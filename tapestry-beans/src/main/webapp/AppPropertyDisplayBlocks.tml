@@ -1,0 +1,6 @@
+<t:container xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+    <t:block id="calendarBlock">
+        <t:output value="calendarDate" format="dateFormat"/>
+    </t:block>
+</t:container>
+

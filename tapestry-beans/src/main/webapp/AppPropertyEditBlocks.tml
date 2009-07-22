@@ -1,0 +1,7 @@
+<div xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<t:block id="calendarBlock">
+		<t:label for="dateField" />
+		<input t:id="dateField" />
+	</t:block>
+</div>
+

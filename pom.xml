@@ -15,8 +15,9 @@
 
 	<modules>
 		<module>hello-world</module>
-		<module>tapestry-streaming</module>
 		<module>tapestry-dynamic-forms</module>
+		<module>tapestry-beans</module>
+		<module>tapestry-streaming</module>
 	</modules>
 
 	<developers>
@@ -91,11 +92,11 @@
 				<version>${tapestry-release-version}</version>
 				<scope>test</scope>
 			</dependency>
+
 			<dependency>
 				<groupId>com.lowagie</groupId>
 				<artifactId>itext</artifactId>
 				<version>2.1.4</version>
-
 			</dependency>
 
 			<dependency>

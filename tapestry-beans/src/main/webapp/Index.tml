@@ -1,0 +1,10 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd" 
+      xmlns:p="tapestry:parameter">
+   <body>
+      <p><t:pagelink page="Register">Generieren von Formularen mit BeanEditForm</t:pagelink></p>
+      <p><t:pagelink page="BeanDisplayDemo">Darstellen von JavaBeans mit BeanDisplay</t:pagelink></p>
+      <p><t:pagelink page="GridDemo">Tabellarische Ansicht von JavaBeans mit Grid</t:pagelink></p>
+      <p><t:pagelink page="PropertyEditBlocksDemo">Erweitern von BeanEditForm um neue Datentypen</t:pagelink></p>
+      <p><t:pagelink page="PropertyDisplayBlocksDemo">Erweitern von BeanDisplay um neue Datentypen</t:pagelink></p>
+   </body>
+</html>
