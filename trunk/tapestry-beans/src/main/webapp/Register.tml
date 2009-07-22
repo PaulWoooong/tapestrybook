@@ -1,0 +1,15 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd" 
+      xmlns:p="tapestry:parameter">
+   <body>
+      <t:beaneditform object="user" add="password2">
+         <p:password>
+            <t:label for="password" />
+            <t:passwordfield t:id="password" value="user.password"/>
+         </p:password>
+         <p:password2>
+            <t:label for="password2" />
+            <t:passwordfield t:id="password2" value="password2"/>
+         </p:password2>
+      </t:beaneditform>
+   </body>
+</html>
