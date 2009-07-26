@@ -18,6 +18,7 @@
 		<module>tapestry-dynamic-forms</module>
 		<module>tapestry-beans</module>
 		<module>tapestry-streaming</module>
+		<module>tapestry-hibernate</module>
 	</modules>
 
 	<developers>
