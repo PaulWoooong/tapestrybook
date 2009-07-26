@@ -19,6 +19,7 @@
 		<module>tapestry-beans</module>
 		<module>tapestry-streaming</module>
 		<module>tapestry-hibernate</module>
+		<module>tapestry-aop</module>
 	</modules>
 
 	<developers>

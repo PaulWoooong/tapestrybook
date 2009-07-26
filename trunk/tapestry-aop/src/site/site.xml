@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<project name="Tapestry Book">
+<project name="Tapestry AOP">
 	<bannerLeft>
 		<name>Tapestry 5</name>
 		<href>http://tapestry.apache.org/tapestry5/</href>
@@ -22,20 +22,12 @@
 
 	<body>
 
-		<menu name="Tapestry 5 Book">
+		<menu name="de.t5book">
 			<item name="About" href="index.html" />
-		</menu>
-
-		<menu name="Modules">
-			<item name="Hello-World" href="/hello-world/index.html" />
-			<item name="Chapter 8" href="/tapestry-dynamic-forms/index.html" />
-			<item name="Chapter 9" href="/tapestry-beans/index.html" />
-			<item name="Chapter 10" href="/tapestry-streaming/index.html" />
-			<item name="Chapter 14 (Hibernate)" href="/tapestry-hibernate/index.html" />
-			<item name="Chapter 18" href="/tapestry-aop/index.html" />
 		</menu>
 
 		<menu ref="reports" />
 
 	</body>
 </project>
+

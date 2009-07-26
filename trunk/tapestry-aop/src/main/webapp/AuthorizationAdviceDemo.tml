@@ -1,0 +1,8 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <body>
+   		<p><t:actionlink t:id="authorized">Autorisierter Aufruf</t:actionlink></p>
+   		<p><t:actionlink t:id="notauthorized">Nicht autorisierter Aufruf</t:actionlink></p>
+   </body>
+</html>
+
+
