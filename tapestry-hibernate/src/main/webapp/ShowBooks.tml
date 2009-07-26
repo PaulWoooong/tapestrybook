@@ -1,0 +1,14 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+	xmlns:p="tapestry:parameter">
+	<body>
+		<t:grid source="books" row="currentBook">
+			<p:titlecell>
+				<t:pagelink page="EditBook" context="currentBook">
+					${currentBook.title}
+				</t:pagelink>
+			</p:titlecell>
+		</t:grid>
+	</body>
+</html>
+
+
