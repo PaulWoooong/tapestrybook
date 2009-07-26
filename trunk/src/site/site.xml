@@ -31,6 +31,7 @@
 			<item name="Chapter 8" href="/tapestry-dynamic-forms/index.html" />
 			<item name="Chapter 9" href="/tapestry-beans/index.html" />
 			<item name="Chapter 10" href="/tapestry-streaming/index.html" />
+			<item name="Chapter 14 (Hibernate)" href="/tapestry-hibernate/index.html" />
 		</menu>
 
 		<menu ref="reports" />
