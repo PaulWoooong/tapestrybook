@@ -1,0 +1,9 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <body>
+   		Ausgabe: '${output}'
+   		<p><t:actionlink t:id="nonempty">Liefert nicht leeren String zurück</t:actionlink></p>
+   		<p><t:actionlink t:id="empty">Liefert leeren String zurück</t:actionlink></p>
+   </body>
+</html>
+
+

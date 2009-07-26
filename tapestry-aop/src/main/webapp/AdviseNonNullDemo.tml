@@ -1,0 +1,9 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <body>
+   		Ergebnis: ${result}
+   		<p><t:actionlink t:id="add">Addiere 2+3</t:actionlink></p>
+   		<p><t:actionlink t:id="add2">Addiere 2 + null</t:actionlink></p>
+   </body>
+</html>
+
+
