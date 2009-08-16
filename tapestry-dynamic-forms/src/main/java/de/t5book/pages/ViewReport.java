@@ -86,14 +86,8 @@ public class ViewReport {
 			}
 
 			public ReportParameter toValue(String clientValue) {
-				List<ReportParameter> parameters = reportService
-						.getReportParameters(reportName);
-				for (ReportParameter next : parameters) {
-					if (next.getName().equals(clientValue)) {
-						return next;
-					}
-				}
-				return null;
+				return reportService.findReportParameter(reportName,
+						clientValue);
 			}
 
 		};

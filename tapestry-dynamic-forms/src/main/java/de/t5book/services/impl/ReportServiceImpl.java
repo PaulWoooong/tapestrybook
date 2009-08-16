@@ -25,7 +25,8 @@ public class ReportServiceImpl implements ReportService {
 		try {
 			PdfWriter.getInstance(document, stream);
 			document.open();
-			document.add(new Paragraph(String.format("Bericht '%s'", reportName)));
+			document.add(new Paragraph(String
+					.format("Bericht '%s'", reportName)));
 			for (ReportParameter param : parameters) {
 				document.add(new Paragraph(String.format("Parameter %s:%s",
 						param.getName(), param.getValue())));
@@ -45,6 +46,17 @@ public class ReportServiceImpl implements ReportService {
 		ReportParameter text = new DateParameter("Stichtag");
 
 		return Arrays.asList(date, number, text);
+	}
+
+	public ReportParameter findReportParameter(String reportName, String name) {
+		List<ReportParameter> parameters = getReportParameters(reportName);
+		
+		for (ReportParameter next : parameters) {
+			if (next.getName().equals(name)) {
+				return next;
+			}
+		}
+		return null;
 	}
 
 }
