@@ -1,0 +1,9 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<h1>Tapestry 5 Test</h1>
+		<p><t:pagelink page="Login" id="loginLink">Zum Login</t:pagelink></p>
+		<p><t:pagelink page="BasicAjax">Zum Ajax-Test</t:pagelink></p>
+	</body>
+</html>
+
+
