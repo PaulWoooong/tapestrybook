@@ -1,0 +1,20 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <body>
+      <p><t:zone t:id="string"/></p>
+
+      <p><t:zone t:id="component"/></p>
+
+      <p><t:zone t:id="renderable"/></p>
+
+      <p><t:zone t:id="rendercommand"/></p>
+
+      <p>
+         <t:actionlink zone="string">Aktualisieren</t:actionlink>
+      </p>
+      
+      <span t:id="textOutput"/>
+
+   </body>
+</html>
+
+

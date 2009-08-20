@@ -1,0 +1,23 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+
+		<h1>Autocomplete Demo</h1>
+		<t:if test="country">
+			Ausgewähltes Land: ${country}
+		</t:if>
+		<t:form>
+
+			<p>
+				Landsuche:
+				<t:textfield t:id="country" value="country"
+					t:mixins="autocomplete" />
+			</p>
+
+			<p>
+				<input type="submit" value="Senden" />
+			</p>
+		</t:form>
+	</body>
+</html>
+
+

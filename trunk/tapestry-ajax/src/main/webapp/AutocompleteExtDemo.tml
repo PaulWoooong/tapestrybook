@@ -1,0 +1,22 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<h1>AutocompleteExt Demo</h1>
+
+		<t:if test="employee">
+			Ausgewählter Mitarbeiter: ${employee.firstName}
+			${employee.lastName}
+		</t:if>
+		<t:form t:id="employeeForm">
+			<p>
+				Mitarbeiter-Suche:
+				<t:textfield t:id="employee" value="employeeId"
+					t:mixins="AutocompleteExt"
+					updateElementFunction="updateEmployeeForm" />
+			</p>
+		</t:form>
+	</body>
+</html>
+
+
+
+
