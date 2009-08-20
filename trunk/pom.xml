@@ -22,6 +22,7 @@
 		<module>tapestry-aop</module>
 		<module>tapestry-ajax</module>
 		<module>tapestry-test</module>
+		<module>tapestry-localization</module>
 	</modules>
 
 	<developers>
