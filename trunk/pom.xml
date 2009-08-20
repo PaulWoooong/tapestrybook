@@ -24,6 +24,7 @@
 		<module>tapestry-test</module>
 		<module>tapestry-localization</module>
 		<module>tapestry-spring</module>
+		<module>tapestry-bytecode</module>
 	</modules>
 
 	<developers>

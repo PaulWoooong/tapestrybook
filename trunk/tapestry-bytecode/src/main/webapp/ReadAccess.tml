@@ -1,0 +1,12 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <body>
+   		<h1>Session-Attribute</h1>
+   		<h>Folgende Attribute wurden ausgelesen:</h>
+   		<dl t:type="loop" source="session.attributeNames" value="currentName">
+   			<dt>${currentName}</dt>
+   			<dd>${session.getAttribute(currentName)}</dd>
+   		</dl>
+   </body>
+</html>
+
+
