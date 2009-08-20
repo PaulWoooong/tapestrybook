@@ -23,6 +23,7 @@
 		<module>tapestry-ajax</module>
 		<module>tapestry-test</module>
 		<module>tapestry-localization</module>
+		<module>tapestry-spring</module>
 	</modules>
 
 	<developers>
