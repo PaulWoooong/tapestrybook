@@ -1,0 +1,14 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<p>
+			<t:pagelink page="WriteAccess">Schreiben eines Session-Attributs
+			</t:pagelink>
+		</p>
+		<p>
+			<t:pagelink page="ReadAccess">Auslesen eines Session-Attributs
+			</t:pagelink>
+		</p>
+	</body>
+</html>
+
+
