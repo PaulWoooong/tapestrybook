@@ -1,0 +1,11 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+	xmlns:x="tapestry-library:lib">
+	<body>
+		<t:lib.TapestryLogo />
+		<img t:type="lib/TapestryLogo" />
+		<t:lib.Logo />
+		<img t:type="lib/Logo" />
+	    <x:Logo />
+		<x:TapestryLogo />
+	</body>
+</html>

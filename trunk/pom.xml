@@ -26,6 +26,8 @@
 		<module>tapestry-spring</module>
 		<module>tapestry-bytecode</module>
 		<module>tapestry-security</module>
+		<module>tapestry-components</module>
+		<module>tapestry-components-demo</module>
 	</modules>
 
 	<developers>
