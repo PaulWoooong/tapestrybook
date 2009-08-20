@@ -1,0 +1,9 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<ul t:type="loop" source="applicationContext.beanDefinitionNames" value="var:bean">
+			<li>${var:bean}</li>
+		</ul>
+	</body>
+</html>
+
+
