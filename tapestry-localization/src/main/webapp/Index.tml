@@ -1,0 +1,9 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+   <body>
+      <p>${message:hello-world}</p>
+       <p><t:pagelink page="WikiLogo">Lokalisierung von Assets</t:pagelink></p>
+       <p><t:pagelink page="ChooseLanguage">Zur Sprachauswahl</t:pagelink></p>
+   </body>
+</html>
+
+
