@@ -25,6 +25,7 @@
 		<module>tapestry-localization</module>
 		<module>tapestry-spring</module>
 		<module>tapestry-bytecode</module>
+		<module>tapestry-security</module>
 	</modules>
 
 	<developers>
