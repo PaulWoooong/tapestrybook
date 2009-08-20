@@ -1,0 +1,27 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<p>
+			<t:zone t:id="counterZone" />
+		</p>
+
+		<p>
+			<t:zone t:id="randomZone" />
+		</p>
+
+		<p>
+			<t:actionlink zone="counterZone">
+				Aktualisieren
+			</t:actionlink>
+
+		</p>
+
+		<t:block id="counterBlock">${number}</t:block>
+
+		<t:block id="randomBlock">
+			Der Zähler wurde um ${random} erhöht.
+		</t:block>
+	</body>
+</html>
+
+
+

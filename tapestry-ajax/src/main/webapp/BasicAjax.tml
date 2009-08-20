@@ -1,0 +1,15 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <body>
+      <t:zone t:id="output" update="grow">
+         ${number}
+      </t:zone>
+      <p>
+      	<t:actionlink t:id="increment" zone="output">Hochzaehlen</t:actionlink>
+      </p>
+      <p>
+      	<t:actionlink t:id="reset" zone="output">Zurücksetzen</t:actionlink>
+      </p>
+   </body>
+</html>
+
+

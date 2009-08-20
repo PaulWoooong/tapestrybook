@@ -20,6 +20,8 @@
 		<module>tapestry-streaming</module>
 		<module>tapestry-hibernate</module>
 		<module>tapestry-aop</module>
+		<module>tapestry-ajax</module>
+		<module>tapestry-test</module>
 	</modules>
 
 	<developers>
