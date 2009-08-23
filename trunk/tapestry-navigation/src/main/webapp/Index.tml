@@ -1,0 +1,29 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<h1>Navigation</h1>
+		<h2>Einfache Links</h2>
+		<p>
+			<t:pagelink page="MyPage">Einfacher Link zur Seite 'MyPage'
+			</t:pagelink>
+		</p>
+		<h2>Verfügbare Bücher</h2>
+		<t:loop source="books" value="currentBook" element="li">
+			<t:pagelink page="book/ViewBook" context="currentBook">${currentBook.title}
+				: ${currentBook.author}</t:pagelink>
+		</t:loop>
+
+		<h2>Navigation durch Aktionen</h2>
+		<p>
+			<t:actionlink t:id="x">Link X</t:actionlink>
+		</p>
+		<p>
+			<t:actionlink t:id="y">Link Y</t:actionlink>
+		</p>
+		<p>
+			<t:pagelink page="Index2">Injektion der Zileseite mit @InjectPage</t:pagelink>
+		</p>
+		<p>
+			<t:pagelink page="Index3">Erzeugung von Links mit PageRenderLinkSource</t:pagelink>
+		</p>
+	</body>
+</html>

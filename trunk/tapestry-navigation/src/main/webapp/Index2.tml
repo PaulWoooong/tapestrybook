@@ -1,0 +1,8 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <body>
+   	<h1>Navigation durch Aktionen (Injektion der Zileseite mit @InjectPage)</h1>
+	<t:loop source="books" value="currentBook" element="li">
+		<t:actionlink context="currentBook">${currentBook.title} : ${currentBook.author}</t:actionlink>
+	</t:loop>
+   </body>
+</html>

@@ -1,0 +1,17 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<h1>Buchdetails</h1>
+		<p>Titel: ${book.title}</p>
+		<p>Author: ${book.author}</p>
+		<p>
+			Erscheinungsdatum:
+			<t:output value="book.publicationDate" format="literal:dd.MM.yyyy" />
+		</p>
+		<p>ISBN: ${book.isbn}</p>
+		<p>Preis: ${book.price}</p>
+
+		<t:actionlink t:id="addToShoppingCart" context="book">
+			Kaufen
+		</t:actionlink>
+	</body>
+</html>
