@@ -1,0 +1,7 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<h1>MyPage</h1>
+		<t:pagelink page="Index">Zur Startseite.</t:pagelink>
+	</body>
+</html>
+
