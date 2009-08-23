@@ -1,10 +1,10 @@
-<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
    <body>
-      Bitte wählen Sie Ihre Sprache aus und gehen Sie anschließend zur Startseite.
+      ${message:message}
       <p>
         <t:actionlink t:id="de">Deutsch</t:actionlink> | 
         <t:actionlink t:id="en">Englisch</t:actionlink></p>
-      <p><t:pagelink page="Index">Gehe zur Startseite</t:pagelink></p>
+      <p><t:pagelink page="Index">${message:back-to-start-page}</t:pagelink></p>
    </body>
 </html>
 

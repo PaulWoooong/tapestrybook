@@ -28,6 +28,7 @@
 		<module>tapestry-security</module>
 		<module>tapestry-components</module>
 		<module>tapestry-components-demo</module>
+		<module>tapestry-navigation</module>
 	</modules>
 
 	<developers>
