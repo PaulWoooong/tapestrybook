@@ -3,7 +3,7 @@ package de.t5book.test.integration;
 import org.apache.tapestry5.test.AbstractIntegrationTestSuite;
 import org.testng.annotations.Test;
 
-public class SimpleIntegrationTestSuite extends AbstractIntegrationTestSuite {
+public class SimpleIntegrationTest extends AbstractIntegrationTestSuite {
 	
     @Test
     public void integration_test(){
