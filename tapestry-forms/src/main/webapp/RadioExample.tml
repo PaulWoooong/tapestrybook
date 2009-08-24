@@ -1,0 +1,18 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<t:form>
+			<t:radiogroup value="gender">
+				<t:label for="male" />
+				<t:radio t:id="male" value="literal:male" />
+
+				<t:label for="female" />
+				<t:radio t:id="female" value="literal:female" />
+			</t:radiogroup>
+
+			<br />
+
+			<input type="submit" value="Send" />
+		</t:form>
+	</body>
+</html>
+

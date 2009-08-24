@@ -1,0 +1,24 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<t:form clientValidation="false">
+			<t:errors />
+			<br />
+			Benutzername:
+			<t:textfield t:id="userName" value="name" validate="required,minlength=3" />
+			<br />
+
+			Age:
+			<t:textfield value="age" t:id="age" validate="required,min=18"
+				translate="integer" />
+
+			<br />
+			Rating:
+			<t:textfield value="rating" label="Rating" nulls="zero" />
+
+			<br />
+			<input type="submit" value="Send" />
+
+		</t:form>
+	</body>
+</html>
+

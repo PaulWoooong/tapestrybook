@@ -1,0 +1,30 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<t:if test="user">
+			Hallo, ${user.userName}!!!
+			
+			<t:parameter name="else">
+				<a t:type="pagelink" page="Login" href="#">Zum Einloggen</a>
+			</t:parameter>
+		</t:if>
+
+		<p><t:pagelink page="Register">Registrierung</t:pagelink></p>
+		<p><t:pagelink page="FormWithContext">Formular mit Kontext</t:pagelink></p>
+		<p><t:pagelink page="MultipleForms">Mehrere Formulare auf einer Seite</t:pagelink></p>
+		<p><t:pagelink page="TextFieldExample">Eingabe von Text</t:pagelink></p>
+		<p><t:pagelink page="CheckboxExample">Checkboxen</t:pagelink></p>
+		<p><t:pagelink page="RadioExample">Radiobuttons</t:pagelink></p>
+		<p><t:pagelink page="EnumRadioExample">Radiobuttons mit Enums</t:pagelink></p>
+		<p><t:pagelink page="SelectExample">Auswahllisten</t:pagelink></p>
+		<p><t:pagelink page="SelectLiteralExample">Auswahllisten 2</t:pagelink></p>
+		<p><t:pagelink page="EnumSelectExample">Auswahllisten mit Enums</t:pagelink></p>
+		<p><t:pagelink page="PaletteExample">Palette</t:pagelink></p>
+		<p><t:pagelink page="DateFieldExample">Eingabe von Datum</t:pagelink></p>
+		<p><t:pagelink page="UploadExample">Hochladen von Dateien</t:pagelink></p>
+		<p><t:pagelink page="SubmitExample">Schaltflächen</t:pagelink></p>
+		<p><t:pagelink page="AlphanumericValidatorExample">Eigener Validator (AlphanumericValidator)</t:pagelink></p>
+		<p><t:pagelink page="HasDigitValidatorExample">Eigener Validator (HasDigits)</t:pagelink></p>
+		<p><t:pagelink page="NullFieldStrategyExample">Null-Werte</t:pagelink></p>
+		<p><t:pagelink page="CurrencyTranslatorExample">Eigener Translator</t:pagelink></p>
+	</body>
+</html>

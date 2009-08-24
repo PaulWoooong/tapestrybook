@@ -29,6 +29,7 @@
 		<module>tapestry-components</module>
 		<module>tapestry-components-demo</module>
 		<module>tapestry-navigation</module>
+		<module>tapestry-forms</module>
 	</modules>
 
 	<developers>
@@ -88,7 +89,6 @@
 				<groupId>org.apache.tapestry</groupId>
 				<artifactId>tapestry-upload</artifactId>
 				<version>${tapestry-release-version}</version>
-				<scope>test</scope>
 			</dependency>
 
 			<dependency>

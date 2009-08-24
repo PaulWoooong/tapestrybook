@@ -1,0 +1,19 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<t:if test="currency">
+			Eingegebene Währung: ${currency.getSymbol()}
+		</t:if>
+		<p>Bitte geben Sie eine Währung ein:</p>
+		<t:form>
+			<t:errors />
+			<p>
+				<t:textfield t:id="currencyField" value="currency" />
+			</p>
+			<p>
+				<input type="submit" value="Senden" />
+			</p>
+		</t:form>
+
+	</body>
+</html>
+

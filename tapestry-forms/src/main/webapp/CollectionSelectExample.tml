@@ -1,0 +1,14 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<t:form>
+
+			<t:label for="creditCard" />
+			<t:select t:id="creditCard" value="creditCard" model="values" />
+
+			<br />
+
+			<input type="submit" value="Send" />
+		</t:form>
+	</body>
+</html>
+
