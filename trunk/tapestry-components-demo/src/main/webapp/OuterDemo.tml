@@ -1,0 +1,7 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+	xmlns:x="tapestry-library:lib">
+	<body>
+		<p><t:outer value="literal:Hello"/></p>
+		<p><t:outer2 text="literal:Hello"/></p>
+	</body>
+</html>

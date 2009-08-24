@@ -1,0 +1,4 @@
+<span xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+	xmlns:x="tapestry-library:lib">
+	<span t:id="inner"/>
+</span>

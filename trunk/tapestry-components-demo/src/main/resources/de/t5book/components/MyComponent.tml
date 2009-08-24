@@ -1,0 +1,9 @@
+<t:extend xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <t:replace id="title">
+      <h1>Dieser Text wurde überschrieben</h1>
+   </t:replace>
+
+   <t:replace id="content">
+      <h1>Dieser auch!</h1>
+   </t:replace>
+</t:extend>

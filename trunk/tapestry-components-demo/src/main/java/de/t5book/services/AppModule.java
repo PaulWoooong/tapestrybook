@@ -2,15 +2,25 @@ package de.t5book.services;
 
 import java.io.IOException;
 
+import org.apache.tapestry5.ioc.MappedConfiguration;
 import org.apache.tapestry5.ioc.OrderedConfiguration;
 import org.apache.tapestry5.ioc.annotations.Local;
+import org.apache.tapestry5.services.BindingFactory;
+import org.apache.tapestry5.services.BindingSource;
 import org.apache.tapestry5.services.Request;
 import org.apache.tapestry5.services.RequestFilter;
 import org.apache.tapestry5.services.RequestHandler;
 import org.apache.tapestry5.services.Response;
 import org.slf4j.Logger;
 
+import de.t5book.services.impl.ListBindingFactory;
+
 public class AppModule {
+	public static void contributeBindingSource(
+			MappedConfiguration<String, BindingFactory> configuration,
+			BindingSource bindingSource) {
+		configuration.add("list", new ListBindingFactory(bindingSource));
+	}
 
 	/**
 	 * This is a service definition, the service will be named "TimingFilter".
@@ -65,8 +75,8 @@ public class AppModule {
 	 *         implement RequestFilter (defined in other modules).
 	 */
 	public void contributeRequestHandler(
-			OrderedConfiguration<RequestFilter> configuration, @Local
-			RequestFilter filter) {
+			OrderedConfiguration<RequestFilter> configuration,
+			@Local RequestFilter filter) {
 		// Each contribution to an ordered configuration has a name, When
 		// necessary, you may
 		// set constraints to precisely control the invocation order of the

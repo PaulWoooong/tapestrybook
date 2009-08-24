@@ -1,0 +1,9 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<h1>Komponente MyComponent</h1>
+		<t:mycomponent/>
+		
+		<h1>Komponente MyComponent2</h1>
+		<t:mycomponent2/>
+	</body>
+</html>

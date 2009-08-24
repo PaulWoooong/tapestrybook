@@ -1,0 +1,14 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+	xmlns:x="tapestry-library:lib">
+	<body>
+		<ul t:type="forEach" start="5" end="25" value="curentValue"
+			step="5">
+			<li>${curentValue}</li>
+		</ul>
+		<br/>
+		<ul t:type="forEach" end="25" value="curentValue"
+			step="5">
+			<li>${curentValue}</li>
+		</ul>
+	</body>
+</html>
