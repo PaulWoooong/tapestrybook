@@ -29,6 +29,7 @@
 		<menu name="Modules">
 			<item name="Hello-World" href="/hello-world/index.html" />
 			<item name="Chapter 4" href="/tapestry-navigation/index.html" />
+			<item name="Chapter 5" href="/tapestry-state-persistence/index.html" />
 			<item name="Chapter 6" href="/tapestry-localization/index.html" />
 			<item name="Chapter 7" href="/tapestry-forms/index.html" />
 			<item name="Chapter 8" href="/tapestry-dynamic-forms/index.html" />

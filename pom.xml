@@ -30,6 +30,7 @@
 		<module>tapestry-components-demo</module>
 		<module>tapestry-navigation</module>
 		<module>tapestry-forms</module>
+		<module>tapestry-state-persistence</module>
 	</modules>
 
 	<developers>
