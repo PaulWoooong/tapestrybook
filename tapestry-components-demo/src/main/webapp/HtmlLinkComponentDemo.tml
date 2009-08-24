@@ -1,0 +1,9 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+	xmlns:x="tapestry-library:lib">
+	<body>
+		<t:htmlLinkComponent href="http://localhost:8080/Index.tml"
+			style="color:green" target="_blank">
+			Tapestry 5
+	   </t:htmlLinkComponent>
+	</body>
+</html>

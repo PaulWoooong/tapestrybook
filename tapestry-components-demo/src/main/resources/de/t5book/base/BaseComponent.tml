@@ -1,0 +1,9 @@
+<span xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <t:extension-point id="title">
+      <h1>${defaultTitle}</h1>
+   </t:extension-point>
+
+   <t:extension-point id="content">
+      <p>${defaultContent}</p>
+   </t:extension-point>
+</span>

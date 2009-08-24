@@ -1,11 +1,22 @@
 <html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
 	xmlns:x="tapestry-library:lib">
 	<body>
+		<h1>Einbinden von Komponenten aus Bibliotheken</h1>
 		<t:lib.TapestryLogo />
 		<img t:type="lib/TapestryLogo" />
 		<t:lib.Logo />
 		<img t:type="lib/Logo" />
-	    <x:Logo />
+		<x:Logo />
 		<x:TapestryLogo />
+		
+		<h1>Eigene Binding-Präfixe</h1>
+		<t:pagelink page="Index" context="context">Klick mich</t:pagelink>
+		
+		<h1>Eigene Komponenten</h1>
+		<p><t:pagelink page="ForEachDemo">Komponente ForEach</t:pagelink></p>
+		<p><t:pagelink page="OuterDemo">Vererbung von Bindings</t:pagelink></p>
+		<p><t:pagelink page="HtmlLinkComponentDemo">Informelle Parameter</t:pagelink></p>
+		<p><t:pagelink page="TemplateExtensionDemo">Vererben von Templates</t:pagelink></p>
+		 
 	</body>
 </html>

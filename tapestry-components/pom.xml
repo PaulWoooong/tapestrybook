@@ -33,4 +33,23 @@
 		</dependency>
 
 	</dependencies>
+
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifestEntries>
+							<Tapestry-Module-Classes>de.t5book.mylib.services.MyLibraryModule</Tapestry-Module-Classes>
+						</manifestEntries>
+					</archive>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
 </project>
