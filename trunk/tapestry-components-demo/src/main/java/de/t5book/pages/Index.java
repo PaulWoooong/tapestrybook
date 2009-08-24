@@ -20,8 +20,4 @@ public class Index {
 		book.setId(1l);
 	}
 
-	public Object[] getContext() {
-		return new Object[] { user.getId(), book.getId() };
-	}
-
 }
