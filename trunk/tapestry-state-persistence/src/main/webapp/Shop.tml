@@ -1,0 +1,17 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<p>
+			<t:if test="cartExists">
+				Anzahl der 'Items' im Warenkrob: ${cart.items.size()}
+		</t:if>
+		</p>
+		<p>
+			<t:actionlink t:id="createCart">Warenkrob anlegen</t:actionlink>
+		</p>
+		<p>
+			<t:actionlink t:id="addItem">Ein 'Item' hinzufügen'</t:actionlink>
+		</p>
+	</body>
+</html>
+
+
