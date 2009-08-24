@@ -1,0 +1,16 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<br />
+		<t:form t:id="registerForm" clientValidation="false">
+			<t:errors />
+			Eingabe (muss genau 3 Zahlen enthalten):
+			<t:textfield value="value" validate="hasdigits=3" />
+
+			<p>
+				<input type="submit" value="Senden" />
+			</p>
+		</t:form>
+
+	</body>
+</html>
+

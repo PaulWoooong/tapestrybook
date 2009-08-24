@@ -1,0 +1,13 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<t:form>
+		    Name: <t:textfield value="userName"/>
+            <br/>
+            Email: <t:textfield value="email"/>
+            <br/>
+		   <t:submit t:id="cancel" value="Cancel" defer="false"/>
+			<t:submit t:id="register"  value="Register"/>
+		</t:form>
+	</body>
+</html>
+

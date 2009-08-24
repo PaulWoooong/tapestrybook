@@ -1,0 +1,16 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<t:form t:id="loginForm">
+			Name: <t:textfield value="userName"/>
+            Passwort: <t:passwordfield value="password"/>
+			<input type="submit" value="Login" />
+		</t:form>
+
+		<t:form t:id="searchForm">
+			Eingabe:
+			<t:textfield value="search" />
+			<input type="submit" value="Suchen" />
+		</t:form>
+
+	</body>
+</html>

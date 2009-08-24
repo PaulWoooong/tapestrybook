@@ -1,0 +1,13 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<t:form>
+			Geburtstag:
+			<t:datefield value="birthday" />
+
+			<br />
+			<input type="submit" value="Senden" />
+
+		</t:form>
+	</body>
+</html>
+

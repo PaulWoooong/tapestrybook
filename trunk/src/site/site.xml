@@ -28,11 +28,21 @@
 
 		<menu name="Modules">
 			<item name="Hello-World" href="/hello-world/index.html" />
+			<item name="Chapter 4" href="/tapestry-navigation/index.html" />
+			<item name="Chapter 6" href="/tapestry-localization/index.html" />
+			<item name="Chapter 7" href="/tapestry-forms/index.html" />
 			<item name="Chapter 8" href="/tapestry-dynamic-forms/index.html" />
 			<item name="Chapter 9" href="/tapestry-beans/index.html" />
 			<item name="Chapter 10" href="/tapestry-streaming/index.html" />
+			<item name="Chapter 11" href="/tapestry-components/index.html" />
+			<item name="Chapter 11" href="/tapestry-components-demo/index.html" />
+			<item name="Chapter 13" href="/tapestry-ajax/index.html" />
 			<item name="Chapter 14 (Hibernate)" href="/tapestry-hibernate/index.html" />
+			<item name="Chapter 14 (Spring)" href="/tapestry-spring/index.html" />
+			<item name="Chapter 15" href="/tapestry-test/index.html" />
+			<item name="Chapter 16" href="/tapestry-security/index.html" />
 			<item name="Chapter 18" href="/tapestry-aop/index.html" />
+			<item name="Chapter 21" href="/tapestry-bytecode/index.html" />
 		</menu>
 
 		<menu ref="reports" />

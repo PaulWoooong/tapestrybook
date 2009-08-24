@@ -1,0 +1,14 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<t:form>
+
+			<t:label for="subscribeNewsletter" />
+			<t:checkbox t:id="subscribeNewsletter" value="subscribeNewsletter" />
+
+			<br />
+
+			<input type="submit" value="Send" />
+		</t:form>
+	</body>
+</html>
+

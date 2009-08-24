@@ -1,0 +1,14 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+	<body>
+		<t:if test="input">
+			Ihre Eingabe: ${input}
+    	</t:if>
+
+		<t:form context="formContext">
+			Eingabe:
+			<t:textfield value="input" />
+			<br />
+			<input type="submit" value="Senden" />
+		</t:form>
+	</body>
+</html>

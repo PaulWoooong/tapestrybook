@@ -1,0 +1,16 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <body>
+      ${uploadErrorMessage}
+      <t:form t:id="registerForm">
+         <t:errors/>
+         Avatar auswählen:
+         <t:upload value="uploadedFile"/>
+   
+         <p>
+         <input type="submit" value="Senden"/>
+         </p>
+      </t:form>
+
+   </body>
+</html>
+

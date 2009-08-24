@@ -1,0 +1,71 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+   <body>
+      <t:form t:id="registerForm" clientValidation="false">
+         <t:errors/>
+         <br/>
+         <t:label for="userName"/>:<br/>
+         <t:textfield t:id="userName" value="userName" size="30"
+                      validate="required,regexp=^[a-zA-Z]+$,minlength=3,maxlength=50"/>
+      
+         <br/>
+         <t:label for="password"/>:<br/>
+         <t:passwordfield t:id="password" value="password" 
+                      validate="required,minlength=5"/>
+      
+         <br/>
+         <t:label for="password2"/>:<br/>
+         <t:passwordfield t:id="password2" value="password2"
+                      validate="required"/>
+      
+         <br/>
+         <t:label for="email"/>:<br/>
+         <t:textfield t:id="email" value="email" size="30"
+                      validate="required,email"/>
+    
+         <br/>
+         <t:label for="birthday"/>:<br/>
+         <t:datefield t:id="birthday" 
+                      value="birthday"
+                      format="dd.MM.yyyy"
+                      validate="required"/>
+           
+         <br/>
+         <t:label for="gender"/>:<br/>
+         <t:radiogroup t:id="gender" value="gender" validate="required">
+            <t:label for="male" />
+            <t:radio t:id="male" value="literal:male"/>
+
+            <t:label for="female" />
+            <t:radio t:id="female"  value="literal:female"/>
+         </t:radiogroup>
+         <br/>
+         
+         <t:label for="paymentType"/>:<br/>
+		 <t:select t:id="paymentType" value="paymentType" model="options"/>
+		    
+		     <br/>
+		 <t:label for="languages"/>:<br/>
+         <t:palette t:id="languages" model="languagesModel"
+                     selected="selectedLanguages"
+                     encoder="languageEncoder"/>
+         <br/>
+		     
+         <t:label for="signature"/>:<br/>
+         <t:textarea t:id="signature" value="signature"  cols="30" rows="7"/>
+         <br/>
+         
+         <t:label for="avatar"/>:
+         <t:upload t:id="avatar" value="uploadedFile"/>
+
+         <br/>
+         <t:label for="newsletter"/>:
+         <t:checkbox t:id="newsletter"
+                  value="subscribeNewsletter"/>
+   
+         <br/>
+         <t:submit value="Senden"/>
+      </t:form>
+
+   </body>
+</html>
+
