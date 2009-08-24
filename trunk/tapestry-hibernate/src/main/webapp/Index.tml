@@ -1,6 +1,7 @@
 <html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
    <body>
-      <p><t:pagelink page="ShowBooks">Alle Bücher anzeigen</t:pagelink></p>
+      <p><t:pagelink page="ShowBooks">Komponente Grid und Hibernate</t:pagelink></p>
+      <p><t:pagelink page="hibernate/Statistics">Hibernate-Metriken</t:pagelink></p>
    </body>
 </html>
 
